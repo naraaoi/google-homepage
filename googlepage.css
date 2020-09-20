@@ -1,0 +1,11 @@
+#titulo{
+    color: red;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+}
+body{ 
+    color:blue;
+}
