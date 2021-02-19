@@ -1,11 +1,37 @@
+
 #titulo{
     color: red;
+}
+
+body, html{ 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+body, input, button{
+
+    font-size 14px;
+    font-family: arial, sans-serif;
+    color: #222;
 }
 
 header{
     display:flex;
     flex-direction: column;
+    align-items: center;
+
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
 }
-body{ 
-    color:blue;
+
+#busqueda{
+    padding-top: 109;
+    font-size: small;
+    color: #222;
+
+
 }
